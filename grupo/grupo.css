@@ -1,0 +1,44 @@
+@font-face {
+    src: url("fonts/Rubik-Regular.ttf");
+    font-family: "Titulo";
+    font-weight: lighter;
+} 
+@font-face {
+    src: url("fonts/Lora-Italic-VariableFont_wght.ttf");
+    font-family: "Italico";
+    font-weight: lighter;
+}
+@font-face{
+    src: url("fonts/Cabin-Italic.ttf");
+    font-family: "Head";
+    font-weight: lighter;
+}
+#participantes {
+    font-family: "Titulo";
+    background-color: tomato;
+    color: aliceblue;
+    border-radius: 5px;
+}
+#italico {
+    font-family: "Italico";
+    font-style: italic;
+    background-color: tomato;
+    color: aliceblue; 
+    border-radius: 5px;
+    margin-left: 4px;
+}
+#htitulo {
+    font-family: "Head";
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+html{
+    background-color:whitesmoke;
+}
+#img {
+    border-radius: 20px;
+}
+.grupo img{
+    vertical-align: middle;
+}

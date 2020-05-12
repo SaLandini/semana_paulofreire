@@ -1,0 +1,26 @@
+@font-face {
+    src: url("fonts/Slabo27px-Regular.ttf");
+    font-family: "texto";
+    font-weight: lighter;
+}
+@font-face {
+    src: url("fonts/AbrilFatface-Regular.ttf");
+    font-family: "titulo";
+    font-weight: lighter;
+}
+#texto {
+    font-family: "texto";
+    color: black;
+}
+html {
+    background-color: whitesmoke;
+}
+::-webkit-scrollbar { 
+    display: block; 
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+#titulo {
+    font-family: "titulo";
+}

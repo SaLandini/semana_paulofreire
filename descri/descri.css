@@ -1,0 +1,55 @@
+@font-face{
+    src: url("fonts/Bitter-Bold.ttf");
+    font-family: "Titulo";
+    font-weight: 700;
+}
+@font-face{
+    src: url("fonts/Cambo-Regular.ttf");
+    font-family: "Subtitulo";
+}
+@font-face{
+    src: url("fonts/Cabin-Italic.ttf");
+    font-family: "Head";
+    font-weight: lighter;
+}
+html{
+    background-color: whitesmoke;
+}
+.titulo{
+    width: auto;
+    background-color: #458898;
+}
+.titulo img{
+    border-radius: 25px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.titulo h1{
+    font-family: "Titulo";
+}
+.subtitulo{
+    background-color: #9e799b;
+}
+.subtitulo h3{
+    font-family: "Subtitulo";
+    margin-left: 10px;
+}
+.bibli {
+    background-color: #1d204d;
+}
+.bibli h3{
+    color: #ebdbb2;
+    margin-left: 10px;
+}
+.bibli p{
+    color: #ebdbb2;
+    margin-left: 50px;
+}
+.bibli a{
+    color: #9bb8b2;
+}
+.confia h1{
+    font-family: "Head";
+    color: white;
+    background-color: black;
+}
